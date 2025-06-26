@@ -1,6 +1,12 @@
 __pycache__/
 venv/
-artifacts/
+
+artifacts/raw/
+artifacts/processed/
+artifacts/model/
+artifacts/model_weights/
+artifacts/model_checkpoints/
+
 0_resource_file/
 logs/
 notebook/weights.weights.h5

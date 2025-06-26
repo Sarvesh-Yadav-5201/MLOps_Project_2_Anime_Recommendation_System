@@ -1,0 +1,6 @@
+outs:
+- md5: 1e37a6dbe67a9fe2a2644687201b6aaf.dir
+  size: 10932706
+  nfiles: 2
+  hash: md5
+  path: model_weights
