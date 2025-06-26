@@ -1,0 +1,15 @@
+# Configuration for data ingestion process
+data_ingestion:
+  bucket_name: "mlops-project-2-anime-recommendation"
+  bucket_file_names:
+    - "anime.csv"
+    - "anime_with_synopsis.csv"
+    - "animelist.csv"
+
+
+# Configuration for model training
+model: 
+  embedding_size: 128
+  optimizer : Adam
+  loss : binary_crossentropy
+  metrics : ['mae', 'mse']

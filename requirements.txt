@@ -1,0 +1,16 @@
+#ADDING ALL REQUIREMENTS
+# This file is used to specify the dependencies for the project.
+
+pandas 
+numpy 
+matplotlib
+scikit-learn
+seaborn
+setuptools
+google-cloud-storage
+pyyaml
+tensorflow
+keras
+wordcloud
+comet-ml
+dvc
