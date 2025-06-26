@@ -1,0 +1,4 @@
+[core]
+    remote = anime_remote
+['remote "anime_remote"']
+    url = gs://dvc_anime_reco/

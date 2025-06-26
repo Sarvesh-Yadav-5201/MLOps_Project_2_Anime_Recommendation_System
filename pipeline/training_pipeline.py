@@ -16,6 +16,8 @@ The data ingestion step is not required as the data is already available in the 
 ALSO, this data ingestion pipeline is downloading data from the GCP bucket and saving it in our local environment.
 However, once we push the data to the GitHub repository, and using DVC, there is no need to download the data here in local environment.
 
+USING :dvc pull ; we can pull the data from the remote storage to our local environment.
+
 '''
 
 # ## .......................... DATA INGESTION ..................................##
