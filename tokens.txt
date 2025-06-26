@@ -1,5 +1,0 @@
-## Setting up GOOGLE APPLICATION CREDENTIALS:
-
-set GOOGLE_APPLICATION_CREDENTIALS=E:\MLOps_Projects\MLOps_Project_2_Anime_Recommendation_System\single-arcadia-463020-t4-79934e2ae5a6.json
-
-echo %GOOGLE_APPLICATION_CREDENTIALS%  # FOR ECHO

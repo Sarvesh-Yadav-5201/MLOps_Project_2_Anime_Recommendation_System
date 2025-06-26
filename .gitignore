@@ -1,5 +1,3 @@
-tokens
-single-arcadia-463020-t4-79934e2ae5a6.json/
 __pycache__/
 venv/
 artifacts/
@@ -7,3 +5,4 @@ artifacts/
 logs/
 notebook/weights.weights.h5
 anime_recommendation_system.egg-info/
+secrets/
