@@ -34,3 +34,8 @@ ANIME_WEIGHTS_FILE_PATH = os.path.join(WEIGHTS_DIR, "anime_weights.pkl")
 USER_WEIGHTS_FILE_PATH = os.path.join(WEIGHTS_DIR, "user_weights.pkl")
 
 CHECKPOINT_FILE_PATH = 'artifacts/model_checkpoints'
+
+####..............RECOMMENDATION SYSTEM PATHS..............####
+ANIME_DF = "artifacts/processed/anime_df.csv"
+RATINGS_DF = "artifacts/processed/ratings_df.csv"
+SYNOPSIS_DF = "artifacts/processed/anime_synopsis_df.csv"

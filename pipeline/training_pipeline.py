@@ -27,11 +27,11 @@ USING :dvc pull ; we can pull the data from the remote storage to our local envi
 
 
 
-## ........................... DATA PREPROCESSING ..............................##
+## ........................... DATA PREPROCESSING ...............................##
 data_processor = DataProcessing(ANIMELIST_CSV, PROCESSED_DIR)
 data_processor.run_preprocessing()
 
-## ............................. MODEL TRAINING ................................##
+## ............................. MODEL TRAINING .................................##
 model_training = ModelTraining(data_path=PROCESSED_DIR)
 model_training.train_model()
 
