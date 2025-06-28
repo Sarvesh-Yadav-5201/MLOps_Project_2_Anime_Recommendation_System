@@ -26,7 +26,7 @@
 
         {% if recommendations %}
         <div class="recommendations-box">
-            <h2> Recommendations for You 🚀</h2>
+            <h2> Recommendations for User: {{ user_id }} 🚀</h2>
             <ul>
                 {% for anime in recommendations %}
                     <li>{{ anime }}</li>
