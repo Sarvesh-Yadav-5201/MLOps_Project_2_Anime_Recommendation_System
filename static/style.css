@@ -44,14 +44,12 @@ h1 {
 
 label {
     font-size: 1rem;
-    color: #555;
+    color: #fdfdfd;
 }
 
 input[type="number"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #443d3d;
+    width: 50%;
+    border: 3px solid #443d3d;
     border-radius: 5px;
     font-size: 1rem;
 }
@@ -88,7 +86,7 @@ button:hover {
 }
 
 .recommendations-box li {
-    background: #e0f2f1;
+    background: #303636;
     margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
