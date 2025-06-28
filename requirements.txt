@@ -15,3 +15,4 @@ wordcloud
 comet-ml
 dvc
 dvc-gs
+flask

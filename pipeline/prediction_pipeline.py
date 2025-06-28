@@ -9,7 +9,7 @@ from utils.helper import *
 ## Function for HYBRID recommendation system:
 
 def get_hybrid_recommendation (user_id,
-                               n = 10,
+                               n = 5,
                                user_weight = 0.5):
     
     '''
@@ -88,7 +88,7 @@ if __name__ == "__main__":
 
     ## Get hybrid recommendations:
     data = get_hybrid_recommendation(2,  
-                                n = 10,
+                                n = 5,
                                 user_weight = 0.5)
 
 
