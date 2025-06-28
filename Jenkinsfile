@@ -32,8 +32,24 @@ pipeline {
                     pip install -e .
                     pip install dvc
                     '''
-                    
                 }
+            }
+        }
+
+        // Stage to pull data using DVC
+        stage ('DVC PULL ......'){
+            steps{
+                withCredentials([string(credentialsId: 'gcp_key_anime', variable: 'GOOGLE_APPLICATION_CREDENTIALS')]) {
+                    script {
+                        echo 'Pulling data using DVC ......'
+                        
+                        sh '''
+                        . ${VENV_DIR}/bin/activate
+                        dvc pull
+                        '''
+                    }
+                }
+                
             }
         }
     }
