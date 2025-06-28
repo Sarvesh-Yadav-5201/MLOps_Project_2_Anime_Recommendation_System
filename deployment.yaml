@@ -1,0 +1,33 @@
+# Deployent file for the application in Google Kubernetes Engine using jenkins
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: anime-recommender
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: anime-recommender
+  template:
+    metadata:
+      labels:
+        app: anime-recommender
+    spec:
+      containers:
+      - name: anime-recommender-container
+        image: gcr.io/single-arcadia-463020-t4/anime-recommender:latest ## this should be the image we built and pushed to GCR
+        ports:
+        - containerPort: 5000  
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: anime-recommender-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: anime-recommender
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 5000
